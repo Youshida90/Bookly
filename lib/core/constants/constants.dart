@@ -6,4 +6,5 @@ class Constants {
   static const kTranstionDuration = Duration(milliseconds: 300);
   static const kGtSectraFine = 'GT-Sectra-Fine';
   static const kFeaturedBox = 'featured_box';
+  static const kNewestBox = 'newest_box';
 }
