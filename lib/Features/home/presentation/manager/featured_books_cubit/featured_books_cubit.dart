@@ -1,7 +1,6 @@
-// ignore: depend_on_referenced_packages
-import 'package:bloc/bloc.dart';
 import 'package:bookly_app/Features/home/domain/entities/book_entity.dart';
 import 'package:bookly_app/Features/home/domain/use_cases/fetch_featured_books_use_case.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 // ignore: depend_on_referenced_packages
 import 'package:meta/meta.dart';
 
