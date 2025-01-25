@@ -18,3 +18,11 @@ final class FeaturedBooksSuccess extends FeaturedBooksState {
 
   FeaturedBooksSuccess(this.books);
 }
+
+final class FeaturedBooksPaginationLoading extends FeaturedBooksState {}
+
+final class FeaturedBooksPaginationLoadingFailure extends FeaturedBooksState {
+  final String errmessage;
+
+  FeaturedBooksPaginationLoadingFailure(this.errmessage);
+}
